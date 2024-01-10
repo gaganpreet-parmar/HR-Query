@@ -18,7 +18,7 @@ Watch Demo on YouTube : <<>>
 2. "cd HR-Query/" and create ".env" file. Add below lines. Replace keys and url with one you created for openai and weaviate.<br/>
    YOUR_OPENAI_KEY = "Your OpenAi Key"<br/>
    YOUR_WEAVIATE_KEY= "Your Weaviate Key"<br/>
-   YOUR_WEAVIATE_URL="Your Weaviate Key"<br/>
+   YOUR_WEAVIATE_URL="Your Weaviate url"<br/>
 3. "pip install python-dotenv" for you haven't done already.
 
 ## Run The App
