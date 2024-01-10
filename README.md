@@ -15,10 +15,10 @@ Watch Demo on YouTube : <<>>
 
 ## Get Started
 1. Check requirement.txt and install the python libraries.
-2. "cd HR-Query/" and create ".env" file. Add below lines. Replace keys and url with one you created for openai and weaviate.
-   YOUR_OPENAI_KEY = "Your OpenAi Key"
-   YOUR_WEAVIATE_KEY= "Your Weaviate Key"
-   YOUR_WEAVIATE_URL="Your Weaviate Key"
+2. "cd HR-Query/" and create ".env" file. Add below lines. Replace keys and url with one you created for openai and weaviate.<br/>
+   YOUR_OPENAI_KEY = "Your OpenAi Key"<br/>
+   YOUR_WEAVIATE_KEY= "Your Weaviate Key"<br/>
+   YOUR_WEAVIATE_URL="Your Weaviate Key"<br/>
 3. "pip install python-dotenv" for you haven't done already.
 
 ## Run The App
@@ -29,7 +29,7 @@ Watch Demo on YouTube : <<>>
    <img width="619" alt="Screenshot 2024-01-09 at 8 59 58 PM" src="https://github.com/gaganpreet-parmar/HR-Query/assets/156009742/fa42ba2c-73f9-46e5-8924-ac1e1c83f010">
 5. In case you want to integrate solution to upstream apps like "chat-talk" start the flask rest service using "python getContext.py" and it sould start rest API on
    port 9091.
-7. You use curl rest api or use postman
+7. You can curl rest api or use postman<br/>
    curl -X POST -H "Content-Type: application/json" -d '{"id": 1, "content": "your_Question_content_here"}'
    http://localhost:9091/api/resource -u username:password1
 
