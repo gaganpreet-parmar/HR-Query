@@ -8,7 +8,7 @@ HR chatbot, utilizing Weaviate as a vector database for efficient storage. Emplo
     
   </p>
   
-    <p align="left">
+  <p align="left">
     <p>
        Microservices Architecture Artcile link <a href="https://medium.com/@gaganpreetsingh.parmar/crafting-intelligent-conversations-designing-hr-chatbot-with-llm-langchain-and-microservices-fd295f493ed4" target="_blank">Crafting Intelligent Conversations: Designing HR ChatBot with LLM, Langchain and Microservices</a>
     </p>
